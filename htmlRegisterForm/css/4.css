@@ -1,0 +1,52 @@
+@font-face {
+    font-family: TwCenMTBold;
+    src: url('../fonts/TwCenMT-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/TwCenMT-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/TwCenMT-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/TwCenMT-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/TwCenMT-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: TwCenMTRegular;
+    src: url('../fonts/TwCenMT-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/TwCenMT-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/TwCenMT-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/TwCenMT-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/TwCenMT-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: SamsungInterFaceRegular;
+    src: url('../fonts/SamsungInterFace-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/SamsungInterFace-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SamsungInterFace-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SamsungInterFace-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SamsungInterFace-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body, html {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url("../imgs/4_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+p{
+  font-family: 'TwCenMTRegular', Fallback, sans-serif;
+  font-size: 30px;
+  color: white;
+  width: 450px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -78%);
+  line-height: 130%;
+}

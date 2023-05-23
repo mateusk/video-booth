@@ -1,0 +1,126 @@
+@font-face {
+    font-family: TwCenMTBold;
+    src: url('../fonts/TwCenMT-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/TwCenMT-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/TwCenMT-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/TwCenMT-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/TwCenMT-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: TwCenMTRegular;
+    src: url('../fonts/TwCenMT-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/TwCenMT-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/TwCenMT-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/TwCenMT-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/TwCenMT-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: SamsungInterFaceRegular;
+    src: url('../fonts/SamsungInterFace-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/SamsungInterFace-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SamsungInterFace-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/SamsungInterFace-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SamsungInterFace-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body, html {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url("../imgs/3_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+form{
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
+
+input {
+  background-color: rgb(0, 168, 224);
+  line-height: 250%;
+  font-family: 'TwCenMTRegular', Fallback, sans-serif;
+  font-size: 20px;
+  border: none;
+  width: 300px;
+  height: 50px;
+  color: white;
+  float: right;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input[type=submit], input[type="button"]{
+  -webkit-appearance: none;
+  font-family: 'TwCenMTBold', Fallback, sans-serif;
+  width: 150px;
+  background-color: rgb(0, 168, 224);
+  display: inline-block;
+}
+
+label{
+  font-family: 'TwCenMTRegular', Fallback, sans-serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  margin-left: -120px;
+}
+
+#nameLabel{
+  margin-top: 18px;
+}
+
+#rgLabel{
+  margin-top: 80px;
+}
+
+#phoneLabel{
+  margin-top: 145px;
+}
+
+.button {
+    background-color: rgb(0, 168, 224);
+    border: none;
+    color: white;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 250%;
+    font-family: 'TwCenMTBold', Fallback, sans-serif;
+}
+
+#registerBtn{
+  position:absolute;
+  top: 375px;
+  right: 0;
+  width: 150px;
+}
+
+#returnBtn{
+  position:absolute;
+  top: 505px;
+  left: 460px;
+  width: 150px;
+}
+
+p{
+  position: absolute;
+  color: lightgray;
+  font-family: sans-serif;
+  font-style: italic;
+  width: 300px;
+  top: 380px;
+  right: 13%;
+}

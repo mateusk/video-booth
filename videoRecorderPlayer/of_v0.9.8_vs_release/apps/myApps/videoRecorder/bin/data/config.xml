@@ -1,0 +1,17 @@
+<data>
+    <log>0</log>
+    <window x="0" y="0" width="1920" height="1080" fullscreen="false" />
+    <video width="1280" height="720"/>
+    <cameraDeviceName>Logitech HD Pro Webcam C920</cameraDeviceName>
+    <FFMPEGLocation>C:\FFMPEG\bin\ffmpeg.exe</FFMPEGLocation>
+    <videoPlaylistXmlPath>F:\Developer\Developer_Windows\nirvanaVideoRecorder\videoRecorderPlayer\of_v0.9.8_vs_release\apps\myApps\videoPlayer\bin\data\videoPlaylist.xml</videoPlaylistXmlPath>
+    <networkVideosFolderPath>F:\Developer\Developer_Windows\nirvanaVideoRecorder\videoRecorderPlayer\of_v0.9.8_vs_release\apps\myApps\videoPlayer\bin\data\videos\</networkVideosFolderPath>
+    <registeredPeopleXmlPath>C:\xampp\htdocs\nirvana\registros.xml</registeredPeopleXmlPath>
+    <videosFolderPath>videos\</videosFolderPath>
+    <audiosFolderPath>sounds\</audiosFolderPath>
+    <videoFileExtension>.mp4</videoFileExtension>
+    <videoCodec>mpeg4</videoCodec>
+    <videoBitrate>3000k</videoBitrate>
+    <initVolume>1</initVolume>
+    <debugMode>1</debugMode>
+</data>

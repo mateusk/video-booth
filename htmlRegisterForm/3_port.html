@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/3.css">
+</head>
+
+<body>
+  <form action="savePersonData_port.php" method="post" accept-charset="utf-8">
+    <label for="name" id="nameLabel">NOME:</label>
+    <input type="text" name="name" id="name"><br>
+    <label for="rg" id="rgLabel">RG:</label>
+    <input type="text" name="rg" id="rg"><br>
+    <label for="phone" id="phoneLabel">TELEFONE:</label>
+    <input type="text" name="phone" id="phone"><br>
+    <input type="submit" id="registerBtn" value="REGISTRAR">
+  </form>
+  <p id="obs">Os dados acima ser&atilde;o usados somente para registro e n&atilde;o para envio do arquivo do v&iacute;deo gravado.</p>
+  <a href="2_port.html" class="button" id="returnBtn" role="button">VOLTAR</a>
+  <script>
+    var t;
+    window.onload = resetTimer;
+    document.onmousemove = resetTimer;
+    document.onmousedown = resetTimer; // touchscreen presses
+    document.ontouchstart = resetTimer;
+    document.onclick = resetTimer;     // touchpad clicks
+    document.onscroll = resetTimer;    // scrolling with arrow keys
+    document.onkeypress = resetTimer;
+
+    function resetTimer() {
+      clearTimeout(t);
+      t = setTimeout(returnToInitialScreen, 240000);
+    }
+
+    function returnToInitialScreen(){
+      window.location.href = "http://172.22.0.250/nirvana/1.html";
+      //window.location.href = "http://10.0.0.7/nirvana/1.html";
+    }
+  </script>
+</body>
+
+</html>

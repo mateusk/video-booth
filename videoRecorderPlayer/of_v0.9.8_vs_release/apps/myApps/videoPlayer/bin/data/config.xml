@@ -1,0 +1,7 @@
+<data>
+    <log>0</log>
+    <window x="0" y="0" width="1920" height="1080" fullscreen="false" />
+    <video width="1920" height="1080" />
+    <initVolume>1.0</initVolume>
+    <debugMode>1</debugMode>
+</data>

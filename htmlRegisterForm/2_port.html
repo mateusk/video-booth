@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/2.css">
+</head>
+<body>
+  <h4>AUTORIZA&Ccedil;&Atilde;O</h4>
+  <p id="p1">Autorizo o <b>INSTITUTO DAN&Ccedil;AR</b>, com sede na Capital do Estado de S&atilde;o Paulo, na Rua Nilo, 93, bairro Aclima&ccedil;&atilde;o, CEP 01533-010, inscrita no CNPJ/MF sob n° 10.262.919/0001-07, denominada apenas <b>AUTORIZADA</b>, a utilizar a minha imagem e som de voz na exposi&ccedil;&atilde;o <b>Samsung Rock Exhibition</b> (NIRVANA: TAKING PUNK TO THE MASSES), a seguir denominada simplesmente de <b>EXPOSI&Ccedil;&Atilde;O</b>, realizada na cidade do Rio de Janeiro (Museu Hist&oacute;rico Nacional) do dia 22 de junho a 22 de agosto de 2017 e na cidade de S&atilde;o Paulo (Bienal de S&atilde;o Paulo) do dia 12 de setembro a 12 de dezembro de 2017.
+  </p>
+  <p>Fica certo e ajustado que a <b>AUTORIZADA</b> ou terceiros por ela indicados, poder&atilde;o utilizar a minha imagem e som de voz, em todo e qualquer material promocional para divulgar a <b>EXPOSI&Ccedil;&Atilde;O</b>, no Brasil e/ou no exterior, atrav&eacute;s das m&iacute;dias impressa, eletr&ocirc;nica e/ou digital, incluindo mas n&atilde;o se limitando
+ao Facebook e web site da <b>EXPOSI&Ccedil;&Atilde;O</b>. A presente autoriza&ccedil;&atilde;o &eacute; firmada em car&aacute;ter gratuito, definitivo, irrevog&aacute;vel e irretrat&aacute;vel, obrigando-se as partes ao seu fiel e integral cumprimento,
+por si, herdeiros e sucessores.
+  </p>
+  <p id="p3"><br>S&atilde;o Paulo (dia) de (mes) de 2017</p>
+  <p id="p4">Eu afirmo que li e que concordo com a autoriza&ccedil;&atilde;o acima para uso da minha imagem e som de voz.</p>
+  <!-- <a href="3_port.html" class="button" id="notAcceptedBtn" role="button">N&Atilde;O ACEITO OS TERMOS E CONDI&Ccedil;&Otilde;ES</a> -->
+  <a href="3_port.html" class="button" id="acceptedBtn" role="button">ACEITO OS TERMOS E CONDI&Ccedil;&Otilde;ES</a>
+  <a href="1.html" class="button" id="returnBtn" role="button">VOLTAR</a>
+  <script>
+    var dateObj = new Date();
+    var month = dateObj.getUTCMonth() + 1; //months from 1-12
+    var day = dateObj.getUTCDate();
+    var year = dateObj.getUTCFullYear();
+
+    var monthString = "";
+
+    switch(month){
+      case 1:
+        monthString = "janeiro";
+        break;
+
+      case 2:
+        monthString = "fevereiro";
+        break;
+
+      case 3:
+        monthString = "março";
+        break;
+
+      case 4:
+        monthString = "abril";
+        break;
+
+      case 5:
+          monthString = "maio";
+          break;
+
+      case 6:
+        monthString = "junho";
+        break;
+
+      case 7:
+        monthString = "julho";
+        break;
+
+      case 8:
+        monthString = "agosto";
+        break;
+
+      case 9:
+        monthString = "setembro";
+        break;
+
+      case 10:
+        monthString = "outubro";
+        break;
+
+      case 11:
+          monthString = "novembro";
+          break;
+
+      case 12:
+        monthString = "dezembro";
+        break;
+
+      default:
+        break;
+    }
+
+    document.getElementById("p3").innerHTML = "S&atilde;o Paulo, " + day + " de " + monthString + " de " + year;
+
+    var t;
+    window.onload = resetTimer;
+    document.onmousemove = resetTimer;
+    document.onmousedown = resetTimer; // touchscreen presses
+    document.ontouchstart = resetTimer;
+    document.onclick = resetTimer;     // touchpad clicks
+    document.onscroll = resetTimer;    // scrolling with arrow keys
+    document.onkeypress = resetTimer;
+
+    function resetTimer() {
+      clearTimeout(t);
+      t = setTimeout(returnToInitialScreen, 240000);
+    }
+
+    function returnToInitialScreen(){
+      window.location.href = "http://172.22.0.250/nirvana/1.html";
+      //window.location.href = "http://10.0.0.7/nirvana/1.html";
+    }
+  </script>
+</body>
+
+</html>

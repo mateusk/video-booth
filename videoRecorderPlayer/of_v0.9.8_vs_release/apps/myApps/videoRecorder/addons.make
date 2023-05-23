@@ -1,0 +1,4 @@
+ofxXmlSettings
+ofxTimer
+ofxTrueTypeFontUC
+ofxVideoRecorder
